@@ -1,5 +1,4 @@
 module.exports = {
-  "transpileDependencies": [
-    "vuetify"
-  ]
+  transpileDependencies: ['vuetify'],
+  publicPath: process.NODE_ENV === 'production' ? '/vue-calendar' : '/',
 }
