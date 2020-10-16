@@ -110,11 +110,11 @@
                 type="date"
                 label="end (required)"
               ></v-text-field>
-              <v-text-field
+              <!-- <v-text-field
                 v-model="color"
                 type="color"
                 label="color (click to open color menu)"
-              ></v-text-field>
+              ></v-text-field> -->
               <v-btn
                 type="submit"
                 color="primary"
